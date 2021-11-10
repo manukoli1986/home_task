@@ -37,7 +37,7 @@ Before installing Python, you’ll need to install GCC. GCC can be obtained by d
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"     # Install Homebrew
 $ export PATH="/usr/local/opt/python/libexec/bin:$PATH"                                                 # Set PATH Environment
 $ $ brew install python                                                                                 # Install python 3
-$ python3  --version                                                                                    # To check python version
+$ python  --version                                                                                    # To check python version
 
 ```
 
@@ -48,13 +48,18 @@ For more information please follow refrence links:
 ## Run the python application in terminal
 
 ```
-ec2-user:~/environment/home_task/scenario1 (main) $ ls
+#########   OUTPUT    #########
+
+$ git clone https://github.com/manukoli1986/home_task.git
+$ cd scenario1/
+$ ls
 app.py  README.md
-ec2-user:~/environment/home_task/scenario1 (main) $ python3 app.py 
+$ python app.py 
 [9, 8, 4, 3, 6, 5, 10, 2, 7, 1]
-ec2-user:~/environment/home_task/scenario1 (main) $ python3 app.py 
+$ python app.py 
 [6, 2, 10, 1, 7, 3, 4, 9, 5, 8]
-ec2-user:~/environment/home_task/scenario1 (main) $ 
 ```
 
-
+# Best practice
+- We can modify python code with more informations like Logging  and argument of numbers. 
+- We can run this code on container and pass the argument of numbers.
