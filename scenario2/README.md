@@ -32,3 +32,14 @@ Consider having a <b>frontend server</b> (Nginx or Apache) which is used for SSL
 ```
 
 ## Solution 
+
+## Tools
+
+| Nagios | Montinor tools for system and service UP and running status |
+| Grafana | Can create dashboards to have visual on nginx metrics i.e. Nignx request, nginx connections status, nginx success rates, nginx error |
+| Datadog APM (FREE TRIAL) | Cloud monitoring software with monitoring for over 180 NGINX metrics, dashboards, graphs, charts, anomaly detection, and more |
+| Dynatrace | Application performance monitoring software with auto-discovery for NGINX web servers, a dependency map, anomaly detection, and more |
+| NGINX Amplify | NGINX monitoring software for NGINX Open Source and NGINX Plus with custom dashboards, recommendations, alerts, and more |
+| ManageEngine Applications Manager  | Application monitoring software with NGINX and NGINX Plus monitoring with graphs, charts, alerts, reports, and more |
+| AppDynamics | Application performance management platform with NGINX and NGINX Plus monitoring with a customizable dashboard, anomaly detection, alerts, and more. |
+| New Relic | Application monitoring software with NGINX integration, dashboard, alerts, reports, graphs, charts
