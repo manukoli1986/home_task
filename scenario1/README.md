@@ -45,3 +45,16 @@ For more information please follow refrence links:
 * [Install python on Linux](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
 * [Install python on Mac](https://realpython.com/installing-python/#how-to-install-python-on-macos)
 
+## Run the python application in terminal
+
+```
+ec2-user:~/environment/home_task/scenario1 (main) $ ls
+app.py  README.md
+ec2-user:~/environment/home_task/scenario1 (main) $ python3 app.py 
+[9, 8, 4, 3, 6, 5, 10, 2, 7, 1]
+ec2-user:~/environment/home_task/scenario1 (main) $ python3 app.py 
+[6, 2, 10, 1, 7, 3, 4, 9, 5, 8]
+ec2-user:~/environment/home_task/scenario1 (main) $ 
+```
+
+
