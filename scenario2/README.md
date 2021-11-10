@@ -10,12 +10,17 @@ Consider having a <b>frontend server</b> (Nginx or Apache) which is used for SSL
 
 | Name | Info |
 |------|---------|
+| nginx requests | Will figure out max and average request we get |
 | netstat | Get key network metrics from SSL-offloading or proxy server |
+| uptime | Uptime will share information for how long server is UP | 
+| Number of process | how many concurrently process are running |
 | filesystem | To track the disk space of the server from different partitions|
 | cpu stats | SSL Offloading is cpu sensitive process so its important to monitor CPU metrics (user,system,io,nice) |
 | disk stats | To measure DISK IO of the server while performing Encrytion / Decryption |
 | meminfo | Memory related metrics of server to identify memory issues |
 | loadavg | Load averages can be useful for a quick and dirty idea if a machine has gotten busier (for some definition of busier) recently |
+
+
 
 ## Server specs
 
