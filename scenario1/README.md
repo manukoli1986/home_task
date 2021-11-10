@@ -14,7 +14,7 @@ Python code which will print the number from 1 to 10 in random order
 
 ## Prerequisite
 
-Install python on your Linux or Mac machines (workstation) by folllowing below instructions.
+Install python on your <b>Linux</b> or </b>Mac</b> machines (workstation) by folllowing below instructions.
 
 ### Install Python 3 on Linux
 

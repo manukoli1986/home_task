@@ -1,8 +1,8 @@
-#Scenario2
+# Scenario2
 
 ## Overview 
 
-Consider having a frontend server (Nginx or Apache) which is used for SSL offloading and proxies around 25000 requests per second. What metric would be interesting to monitor in that specific case and why and how would we acheive that?
+Consider having a <b>frontend server</b> (Nginx or Apache) which is used for SSL offloading and proxies around 25000 requests per second. What metric would be interesting to monitor in that specific case and why and how would we acheive that?
 
 <!--- BEGIN_TF_DOCS --->
 
