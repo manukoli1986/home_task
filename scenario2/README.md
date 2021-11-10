@@ -17,3 +17,13 @@ Consider having a <b>frontend server</b> (Nginx or Apache) which is used for SSL
 | meminfo | Memory related metrics of server to identify memory issues |
 | loadavg | Load averages can be useful for a quick and dirty idea if a machine has gotten busier (for some definition of busier) recently |
 
+## Server specs
+
+```
+● 4 times Intel(R) Xeon(R) CPU E7-4830 v4 @ 2.00GHz
+● 64GB of ram
+● 2 TB HDD disk space
+● 2 x 10Gbit/s nics
+```
+
+## Solution 
