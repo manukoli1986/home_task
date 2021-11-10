@@ -34,7 +34,8 @@ Consider having a <b>frontend server</b> (Nginx or Apache) which is used for SSL
 ## Solution 
 
 ## Tools
-
+| Name | Info |
+|------|---------|
 | Nagios | Montinor tools for system and service UP and running status |
 | Grafana | Can create dashboards to have visual on nginx metrics i.e. Nignx request, nginx connections status, nginx success rates, nginx error |
 | Datadog APM (FREE TRIAL) | Cloud monitoring software with monitoring for over 180 NGINX metrics, dashboards, graphs, charts, anomaly detection, and more |
