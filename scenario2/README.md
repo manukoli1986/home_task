@@ -6,6 +6,30 @@ Consider having a <b>frontend server</b> (Nginx or Apache) which is used for SSL
 
 <!--- BEGIN_TF_DOCS --->
 
+## Requirements
+
+| Name | Version |
+|------|---------|
+| Nginx | 1.17.0 |
+
+## Server specs
+
+```
+● 4 times Intel(R) Xeon(R) CPU E7-4830 v4 @ 2.00GHz
+● 64GB of ram
+● 2 TB HDD disk space
+● 2 x 10Gbit/s nics
+```
+
+## Solution 
+
+
+
+Although there are many factor which would be important to monitor but as per request we would focus on CPU and HDD utilisation, Swap memory factors -- will impact service-- 
+
+
+Suppose If i hv 90%CPU usage in nginx server the appl server will be impacted due to less proxy requests.  
+
 ## Required metrics to monitor
 
 | Name | Info |
@@ -21,17 +45,6 @@ Consider having a <b>frontend server</b> (Nginx or Apache) which is used for SSL
 | loadavg | Load averages can be useful for a quick and dirty idea if a machine has gotten busier (for some definition of busier) recently |
 
 
-
-## Server specs
-
-```
-● 4 times Intel(R) Xeon(R) CPU E7-4830 v4 @ 2.00GHz
-● 64GB of ram
-● 2 TB HDD disk space
-● 2 x 10Gbit/s nics
-```
-
-## Solution 
 
 ## Tools
 | Name | Info |
