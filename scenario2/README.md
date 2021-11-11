@@ -85,3 +85,6 @@ There are opensource and paid tools available in market to capture and provide b
 | ManageEngine Applications Manager  | Application monitoring software with NGINX and NGINX Plus monitoring with graphs, charts, alerts, reports, and more |
 | AppDynamics | Application performance management platform with NGINX and NGINX Plus monitoring with a customizable dashboard, anomaly detection, alerts, and more. |
 | New Relic | Application monitoring software with NGINX integration, dashboard, alerts, reports, graphs, charts
+
+## Author
+Mayank Koli
