@@ -32,11 +32,8 @@ Suppose we have a high performance web server with aforesaid specs and proxying 
 | Number of connections | 1 layer Up ( LB->web ) and 1 layer down ( Web->App Server )-- Number of connection should be equal and which will confirm that all requests are passing thru without any delay |  
 | CPU stats/Loadavg | How many cores are free and busy. Suppose if we have 8 cores then we can have 6 workers in nginx which will handle incoming requests |
 | HDD/Swap Memory utilisation | During SSL offloading  to thread pools is implemented only for three essential operations: the read() syscall on most operating systems, sendfile() on Linux, and aio_write() on Linux which is used when writing some temporary files such as those for the cache |
-
 | <b>worker_process/worker_thread</b> | Handles the incoming requests with SSLOffloading or zipping tasks. If we have 1 core then we can create 2 worker_process to handle requests and will have 2 running processes with the name of nginx: worker process. If we setup 8 value to worker_process then we will have more gates to serve incoming requests |
-
 | <b>worker_connections </b> | This value defines the maximum number of TCP sessions per worker. Same as TPS connections- by default nginx run only 1 process with 512 connections means we will only be able to serve 512 clients. and If 2 processes with 512 connections each, we will be able to handle 2x512=1024 clients. The number of connections is limited by the maximum number of open files (RLIMIT_NOFILE) on our system |
-
 | <b>worker_rlimit_nofile</b>  | Maximum number of open files can be opened by per worker process which will give another level of high throughput |
 | meminfo | Memory related metrics of server to identify memory issues |
 
